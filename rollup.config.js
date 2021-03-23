@@ -73,7 +73,7 @@ export default {
     }),
     commonjs(),
     typescript({
-      sourceMap: !production,
+      sourceMap: false,
       inlineSources: !production,
     }),
     !production && serve(),
